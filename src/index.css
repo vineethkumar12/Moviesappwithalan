@@ -1,13 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html {
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* { 
+  box-sizing: border-box;
+}
+body{
+  margin: 0; 
+ 
+} 
+.main-container {
+  width: 100%;
+  height: 100vh;
+  font-family: "Poppins";
+  flex-direction: column;
+  
+  background: url("https://i.ibb.co/vXqDmnh/background.jpg") no-repeat center center/cover;
+}
+.main-container::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0.1;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+} 
+.movie {  
+  position: relative;
+  z-index: 2; 
+   margin-top: 10%; 
+   margin-left: 10%;
+  background-image: linear-gradient( to right,rgb(0, 255, 8) , yellow );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.sub-container {  
+ 
+  position: relative;
+  z-index: 2; 
+   
+} 
+.heart1{
+  display: inline-flex;
+  justify-content:flex-end;  
+  gap: 280px; 
+  
+}  
+.card {  
+position: absolute;
+  z-index: 3;  
+ margin-top: -10%; 
+  background-color: aliceblue;
+
+ 
+}  
+.video{
+  position: absolute;
+  z-index: 3;  
+ margin-left: 30%; 
+ margin-top: -10%;
+
+}
+.video{
+  position: absolute;
+  z-index: 3;  
+
+
 }
