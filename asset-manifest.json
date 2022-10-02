@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Moviesappwithalan/static/css/main.93eab6fc.css",
-    "main.js": "/Moviesappwithalan/static/js/main.08375b93.js",
+    "main.css": "/Moviesappwithalan/static/css/main.9abb275d.css",
+    "main.js": "/Moviesappwithalan/static/js/main.297c9fde.js",
     "static/js/787.cc549b1a.chunk.js": "/Moviesappwithalan/static/js/787.cc549b1a.chunk.js",
     "index.html": "/Moviesappwithalan/index.html",
-    "main.93eab6fc.css.map": "/Moviesappwithalan/static/css/main.93eab6fc.css.map",
-    "main.08375b93.js.map": "/Moviesappwithalan/static/js/main.08375b93.js.map",
+    "main.9abb275d.css.map": "/Moviesappwithalan/static/css/main.9abb275d.css.map",
+    "main.297c9fde.js.map": "/Moviesappwithalan/static/js/main.297c9fde.js.map",
     "787.cc549b1a.chunk.js.map": "/Moviesappwithalan/static/js/787.cc549b1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93eab6fc.css",
-    "static/js/main.08375b93.js"
+    "static/css/main.9abb275d.css",
+    "static/js/main.297c9fde.js"
   ]
 }
