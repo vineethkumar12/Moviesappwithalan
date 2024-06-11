@@ -13,7 +13,6 @@ body {
   margin: 0;
   --tw-border-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-border-opacity));
-  overflow-x: hidden;
 }
 .main-container {
   width: 100%;

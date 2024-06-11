@@ -42,8 +42,6 @@ function App() {
       onCommand: ({ command, a, titl, n, video }) => {
         if (command === "movies") {
           setmovies(a);
-
-          setcommands(false);
         }
         if (command === "back") {
           setmovies([]);
@@ -175,23 +173,25 @@ function App() {
             <i className="fa-brands fa-github  fa-lg  ml-2 text-5xl  text-white"></i>
           </a>
 
-          <button
-            onClick={command}
-            className="text-center text-white ml-2 pl-1 pr-2 pl border mt-2 rounded-md h-7  bg-gradient-to-r from-yellow-500 via-pink-800 to-cyan-700"
-          >
-            {" "}
-            commands
-          </button>
+          <div className="absolute right-4 top-4  z-20">
+            <button
+              onClick={command}
+              className="text-center text-white ml-2 pl-1 pr-2 pl border mt-2 rounded-md h-7  bg-gradient-to-r from-yellow-500 via-pink-800 to-cyan-700"
+            >
+              {" "}
+              commands
+            </button>
+          </div>
         </div>
 
-        <div className="card  absolute top-40  ">
+        <div className="card absolute top-40  ">
           <Moviescards totalmovies={movies} />
         </div>
         <div className="video">
           {" "}
           <Video videokey={videokey} comeback={comeback} />
         </div>
-        <div className="commands">
+        <div className="commands ">
           <Commands commands={commands} />{" "}
         </div>
       </div>

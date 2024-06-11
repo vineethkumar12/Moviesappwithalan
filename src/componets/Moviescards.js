@@ -19,7 +19,7 @@ export const Moviescards = ({ totalmovies }) => {
   });
   return totalmovies.length > 0 ? (
     <div id="home">
-      <div className=" border-yellow-500 border-8    bg-black text-center p-6 border-10  ">
+      <div className=" border-yellow-500 border-8     bg-black text-center p-6 border-10  ">
         <h1 className=" text-yellow-100   text-6xl  font-bold">
           These are latest Movies : 2024
         </h1>

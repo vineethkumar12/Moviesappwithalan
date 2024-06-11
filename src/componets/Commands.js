@@ -4,7 +4,7 @@ export const Commands = ({ commands }) => {
   console.log("vineeth" + commands);
   if (commands) {
     return (
-      <div className="">
+      <div className=" absolute top-6 -right-40 z-10">
         <div className="bg-gradient-to-r from-yellow-500 via-pink-800 to-cyan-700  rounded-md     border  w-80   ml-16 mt-4  md:ml-80 md:mr-80  gap-y-2">
           <ul className="list-decimal ml-5">
             <li>hi alan </li>
