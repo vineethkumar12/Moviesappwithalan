@@ -38,7 +38,7 @@ export const Moviecard = ({
             <h1>Release Date: {releasedate}</h1>{" "}
           </div>
         </div>
-        <h1 className=" absolute right-4 bottom-0 font-bold text-2xl">
+        <h1 className=" absolute right-4 top-3 text-white font-bold text-2xl">
           {number + 1}
         </h1>
       </div>

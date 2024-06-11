@@ -4,7 +4,7 @@ import { Moviecard } from "./Moviecard";
 export const Moviescards = ({ totalmovies }) => {
   const a = totalmovies.map((movie, i) => {
     return (
-      <div>
+      <div data-aos="zoom-in">
         <Moviecard
           key={movie.id}
           number={i}

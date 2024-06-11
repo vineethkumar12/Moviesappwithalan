@@ -7,6 +7,8 @@ import { useEffect } from "react";
 import alanBtn from "@alan-ai/alan-sdk-web";
 import { useState } from "react";
 import { Moviescards } from "./componets/Moviescards";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 //import wordsToNumbers from 'words-to-numbers';
 import axios from "axios";
@@ -139,6 +141,11 @@ function App() {
   const command = () => {
     setcommands(!commands);
   };
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+
+    // Initialize AOS with a duration of 1000ms
+  }, []);
 
   //const [news,setnews]=useState([])
 
