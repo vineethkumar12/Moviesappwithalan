@@ -2,26 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 html {
   scroll-behavior: smooth;
 }
 
-* { 
+* {
   box-sizing: border-box;
 }
-body{
-  margin: 0; 
- 
-} 
+body {
+  margin: 0;
+  --tw-border-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-border-opacity));
+  overflow-x: hidden;
+}
 .main-container {
   width: 100%;
   height: 100vh;
   font-family: "Poppins";
   flex-direction: column;
-  
-  background: url("https://i.ibb.co/vXqDmnh/background.jpg") no-repeat center center/cover;
+  position: absolute;
+  margin: 10px;
+  background: url("aveng.jpeg") no-repeat center/cover;
 }
 .main-container::after {
   content: " ";
@@ -32,49 +33,41 @@ body{
   height: 100%;
   z-index: 0.1;
   background: rgba(0, 0, 0, 0.3);
-  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-} 
-.movie {  
+  box-shadow: inset 120px 100px 250px #000000;
+}
+.movie {
   position: relative;
-  z-index: 2; 
-   margin-top: 10%; 
-   margin-left: 10%;
-  background-image: linear-gradient( to right,rgb(0, 255, 8) , yellow );
+  z-index: 2;
+  margin-top: 10%;
+  margin-left: 10%;
+  background-image: linear-gradient(to right, rgb(0, 255, 8), yellow);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
-.sub-container {  
- 
+.sub-container {
   position: relative;
-  z-index: 2; 
-   
-} 
-.heart1{
-  display: inline-flex;
-  justify-content:flex-end;  
-  gap: 280px; 
-  
-}  
-.card {  
-position: absolute;
-  z-index: 3;  
- margin-top: -10%; 
-  background-color: aliceblue;
-
- 
-}  
-.video{
-  position: absolute;
-  z-index: 3;  
- margin-left: 30%; 
- margin-top: -10%;
-
+  z-index: 1;
 }
-.video{
+.heart1 {
+  display: inline-flex;
+  justify-content: flex-end;
+  gap: 280px;
+}
+.card {
   position: absolute;
-  z-index: 3;  
-
-
+  z-index: 2;
+  margin-top: -10%;
+  background-color: aliceblue;
+}
+.video {
+  position: absolute;
+  z-index: 2;
+  margin-left: 30%;
+  margin-top: -10%;
+}
+.video {
+  position: absolute;
+  z-index: 2;
 }
