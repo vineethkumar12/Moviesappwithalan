@@ -36,7 +36,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/movies-app-with-alan-ai.git
+   git clone (https://github.com/vineethkumar12/Moviesappwithalan.git)
    cd movies-app-with-alan-ai
    ```
 
